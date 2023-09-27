@@ -3,7 +3,8 @@
     Python For Extracting metadata
     1. Extract acronyms
     2. Extract Manufacturers and their models
-    3. Extract MRI sequences based on TE and TR
+    3. Extract MRI sequences based on TE and TR and acronyms extracted from: 
+        https://github.com/rordenlab/dcm2niix/blob/master/console/nii_dicom_batch.cpp (lines: 1176-1197)
     
 '''
 ################################################################################
@@ -97,7 +98,7 @@ df.to_csv('Manufacturer.csv', index=False)
 ################################################################################
 '''3. 
     3.1 Extract MRI sequences based on TE and TR
-    3.2 xtract MRI sequences based on acronyms extracted from: 
+    3.2 Extract MRI sequences based on acronyms extracted from: 
         https://github.com/rordenlab/dcm2niix/blob/master/console/nii_dicom_batch.cpp (lines: 1176-1197)
     '''
 ################################################################################
